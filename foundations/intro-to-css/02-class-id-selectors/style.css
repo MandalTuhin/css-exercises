@@ -1,5 +1,5 @@
 .odd {
-    font-family: 'Verdana', 'DejaVu Sans', sans-sherif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
     background-color: hsl(0, 71%, 74%);
 }
 
@@ -8,9 +8,21 @@
     font-size: 36px;
 }
 
-.odd.special{
+.special{
     font-size: 24px;
 }
+
+/* 
+here I tried doing .odd.special first because I thought I should make sure that I am 
+differentiating between the elements and selecting the same elements. but I 
+realized that I can simply do .special and add it to <p class = "odd special"> and it
+would work without any issues. Chaining is not explicitly necessary because It is much 
+simpler this way. 
+
+if I really need three styles, ie, one for .odd, one for .special 
+and one that explicit style for .odd.special like for <p class="odd special"> then this 
+would be the case.
+*/
 
 #even2{
     background-color: hsl(120, 69%, 71%);
