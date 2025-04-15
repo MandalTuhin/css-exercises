@@ -13,6 +13,10 @@ body {
   font-weight: 800;
 }
 
+/* I have tried to do it in a different way and
+ tried to move the .small-para after the .para and
+ it worked. */
+
 .para {
   font-size: 22px;
 }
